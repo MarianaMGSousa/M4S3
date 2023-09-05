@@ -4,7 +4,7 @@ sessao = HTMLSession() #1 - cria o objeto html
 
 url = 'https://www.olx.com.br/eletronicos-e-celulares/estado-sp?q=iphone' #2 - acessa a página inicial
 
-resposta = sessao.get(url) # 3 -vai acessar todos os imóveis
+resposta = sessao.get(url) # 3 -vai acessar todos os iphones
 
 anuncios = []
 links = resposta.html.find('a[class="sc-dJjYzT dOvWTZ"]')
